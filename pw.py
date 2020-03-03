@@ -2,7 +2,8 @@
 
 PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
              'blog': 'VmALvQyKAxiVH5G8v01if1MLZF3sdt',
-             'luggage': '12345'}
+             'luggage': '12345',
+             'test': 'hello world'}
 
 import sys, pyperclip
 if len(sys.argv) < 2:
