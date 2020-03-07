@@ -2,10 +2,6 @@
 
 import webbrowser, sys, pyperclip, re
 
-addressPattern = re.compile(r'''
-    ^([0-9])
-    (/)$                    
-    ''', re.VERBOSE)
 
 if len(sys.argv) > 1:
     # Grab address from command line
